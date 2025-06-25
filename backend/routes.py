@@ -5,3 +5,7 @@ from app import app
 def recipe():
     req = request.get_json()
     ingredients = req["ingredients"]
+    string_list = None
+    for x in ingredients:
+        string_list += x
+        string_list 
